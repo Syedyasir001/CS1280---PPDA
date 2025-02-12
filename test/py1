@@ -1,0 +1,9 @@
+global_var = input("enter the global variable:")
+local_var  = input("enter the local variable:")
+
+def variable():
+  print("the global variable is: ", global_var)
+  print("the local variable is: ", local_var)
+
+print("the global variable is: ", global_var)
+print("the local variable is: ", local_var)
