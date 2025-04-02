@@ -10,7 +10,7 @@ def calculator():
         print(f"Result:{num1} + {num2} = {num1 + num2}")
     elif choice == '2':
         if num2 != 0:
-            print(f"Result: {num1} / {num2} = {num1 / num2}")  # Fixed the incorrect '+' to '/'
+            print(f"Result: {num1} / {num2} = {num1 / num2}")  
         else:
             print("Error! Division by zero.")
     else:
